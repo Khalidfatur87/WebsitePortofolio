@@ -157,7 +157,6 @@ body {
     height: 756px;
     justify-content: center;
     font-family: sans-serif;
-    padding: 10% 20%;
 }
 
 .first .introduction {
@@ -224,6 +223,10 @@ body {
     border: 1px solid #ffffff;
 }
 
+.download-button:hover {
+    background-color: #9fa1a2;
+}
+
 /* Media Queries untuk Responsivitas */
 @media (max-width: 768px) {
 
@@ -263,8 +266,8 @@ body {
         padding: 10px 15px;
         /* Padding untuk mobile */
         font-size: 14px;
-        margin-top: 20px;
         /* Ukuran font untuk mobile */
+        margin-top: 20px;
     }
 }
 
@@ -471,7 +474,6 @@ body {
 }
 
 .experience-item:hover {
-    transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -668,10 +670,9 @@ body {
     /* Margin antar item */
 }
 
-.portfolio-item:hover {
-    transform: translateY(-10px);
+/* .portfolio-item:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* Portfolio Image */
 .portfolio-image img {
