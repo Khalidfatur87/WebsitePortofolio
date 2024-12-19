@@ -166,6 +166,15 @@ body {
     text-align: center;
 }
 
+.profile-photo {
+    flex: 0 0 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
 .text1,
 .text2 {
     text-transform: uppercase;
@@ -244,6 +253,10 @@ body {
     .first .introduction {
         font-size: 30px;
         /* Ukuran font untuk mobile */
+    }
+
+    .profile-photo {
+        margin: 20px 0 0 0;
     }
 
     .text1,
